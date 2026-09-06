@@ -1,0 +1,16 @@
+Magic bytes are the small initial bytes at the start of a file that identify its format. They are useful for bypassing security protections when uploading malicious files, as we can prepend these bytes to the file header to trick validation systems into accepting the file as a safe format.
+
+| File Type | Magic Bytes (Hex)       | ASCII  | Common Content-Type          | Example Payload Prefix |
+| --------- | ----------------------- | ------ | ---------------------------- | ---------------------- |
+| PDF       | 25 50 44 46             | %PDF   | application/pdf              | `%PDF-1.4`             |
+| JPEG      | FF D8 FF E0             | ÿØÿà   | image/jpeg                   | `\xFF\xD8\xFF\xE0`     |
+| PNG       | 89 50 4E 47 0D 0A 1A 0A | .PNG   | image/png                    | `\x89PNG\r\n\x1a\n`    |
+| GIF       | 47 49 46 38 39 61       | GIF89a | image/gif                    | `GIF89a`               |
+| BMP       | 42 4D                   | BM     | image/bmp                    | `BM`                   |
+| ZIP       | 50 4B 03 04             | PK..   | application/zip              | `PK\x03\x04`           |
+| RAR       | 52 61 72 21 1A 07 00    | Rar!   | application/x-rar-compressed | `Rar!\x1A\x07\x00`     |
+| GZIP      | 1F 8B                   | ..     | application/gzip             | `\x1F\x8B`             |
+| ELF       | 7F 45 4C 46             | .ELF   | application/x-elf            | `\x7FELF`              |
+| EXE       | 4D 5A                   | MZ     | application/x-msdownload     | `MZ`                   |
+| MP3       | 49 44 33                | ID3    | audio/mpeg                   | `ID3`                  |
+| MP4       | 66 74 79 70             | ftyp   | video/mp4                    | `ftyp`                 |
