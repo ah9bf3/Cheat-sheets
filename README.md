@@ -1,8 +1,11 @@
-## Notes, wordlists and cheat sheets that I create through my journey in cybersecurity.
+## A collection of cybersecurity notes, wordlists, and cheat sheets from offensive security practice and real-world pentesting experience.
+
+#### *!!! Disclaimer: For educational use and authorized security testing only.*
+---
 
 * Payloads files could be very useful for fuzzing.
 
-* [big2_Gh0s1h.txt](https://github.com/ah9bf3/Cheat-sheets/blob/main/big2_Gh0s1h.txt) for path discovery, is inspired from SecLists (usually, when installed, on this path on Kali: /usr/share/wordlists/seclists/Discovery/Web-Content/big.txt)
+* [big2_Gh0s1h.txt](https://github.com/ah9bf3/Cheat-sheets/blob/main/big2_Gh0s1h.txt) for path discovery, is inspired from SecLists *(usually, when installed, on this path on Kali: /usr/share/wordlists/seclists/Discovery/Web-Content/big.txt)* where a added more intersting paths that could be disovered.
 
 
 
