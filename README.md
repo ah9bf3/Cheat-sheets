@@ -1,11 +1,13 @@
-Notes and cheat sheets that I create through my journey in cybersecurity.
+## Notes, wordlists and cheat sheets that I create through my journey in cybersecurity.
 
-Payloads files could be very useful for fuzzing.
+* Payloads files could be very useful for fuzzing.
 
-[big2_Gh0s1h.txt](https://github.com/ah9bf3/Cheat-sheets/blob/main/big2_Gh0s1h.txt) is insiered from seclists (usely, when installed, on this path on Kali: /usr/share/wordlists/seclists/Discovery/Web-Content/big.txt)
+* [big2_Gh0s1h.txt](https://github.com/ah9bf3/Cheat-sheets/blob/main/big2_Gh0s1h.txt) for path discovery, is inspired from SecLists (usually, when installed, on this path on Kali: /usr/share/wordlists/seclists/Discovery/Web-Content/big.txt)
 
 
-Main sources are:
+
+---
+*Main sources are:*
 
 [Offsec (through my PEN-200 studies)](https://offsec.com)
 
